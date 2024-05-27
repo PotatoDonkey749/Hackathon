@@ -1,0 +1,39 @@
+1.
+    y = sebesség
+    x = távolság
+    t = idő
+    y = x/t
+    300+x=y*20
+    x=y*5
+    y=x/5
+    300+x=20(x/5)
+    300+x=4x
+    300=3x
+    100=x
+    a vonat 100m hosszú
+
+3.
+    juliska biciklizik x km-t és gyalogol 20-x km-t 
+    jancsi gyalogol x km-t és biciklizik 20-x km-t
+    juliska odaér: x/10+20-x/4
+    jancsi odaér: 20-x/12+x/5
+    x/10+20-x/4=20-x/12+x/5
+    x=12,5km-t biciklizik juliska
+
+8.
+    átló hossza 85 kocka = gyök 2 * 85=120,2081
+    85 négyzet*gyök 2 négyzet = 7225*2 = 2a négyzet
+    7225 = a négyzet
+    85 = a
+    t = a * a = 7225 négyzetcm a nagy kocka területe
+
+9.
+    goodbye = 198, 
+    viszlát = 308
+    x = emberek
+    maguknak nem köszönnek ezért: x2 - x = 506 
+    x = 23
+    198/(x-1) = 9 angol
+    308/(x-1) = 14 magyar
+
+Megjegyzés: Minden feladat megoldását megtaláltam az interneten, de csak azokat a megoldásokat adom be, amiket magamtól meg tudtam oldani.

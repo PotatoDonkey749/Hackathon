@@ -50,21 +50,36 @@ def multiply_matrices(A, B):
 def process_operations(matrices, operations):
     results = []
     for operation in operations:
-        result = None
         terms = operation.split()
+        stack = []
         i = 0
+
         while i < len(terms):
             if terms[i] in matrices:
-                if result is None:
-                    result = matrices[terms[i]]
+                if stack and stack[-1] in {'*', '+'}:
+                    op = stack.pop()
+                    if op == '*':
+                        prev_matrix = stack.pop()
+                        stack.append(multiply_matrices(prev_matrix, matrices[terms[i]]))
+                    elif op == '+':
+                        stack.append('+')
+                        stack.append(matrices[terms[i]])
                 else:
-                    if terms[i-1] == '+':
-                        result = add_matrices(result, matrices[terms[i]])
-                    elif terms[i-1] == '*':
-                        result = multiply_matrices(result, matrices[terms[i]])
+                    stack.append(matrices[terms[i]])
+            elif terms[i] in {'*', '+'}:
+                stack.append(terms[i])
             i += 1
+
+        result = stack.pop(0)
+        while stack:
+            op = stack.pop(0)
+            if op == '+':
+                next_matrix = stack.pop(0)
+                result = add_matrices(result, next_matrix)
+
         results.append((operation, result))
     return results
+
 
 def print_results(results):
     for operation, result in results:

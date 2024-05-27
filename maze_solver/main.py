@@ -65,11 +65,11 @@ def find_paths_in_file(file_path):
 
 file_path = "./input.txt"
 results = find_paths_in_file(file_path)
-
+space = " "
 for label, path in results.items():
     print(f"{label}")
     if path != "No path found":
         
-        print(f"S {path} G")
+        print(f"S {' '.join(path)} G")
     else:
         print("No path found")

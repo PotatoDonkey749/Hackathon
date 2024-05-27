@@ -1,2 +1,9 @@
-for i in range(9):
-    print(f'{i}.:')
+print("1.: 100")
+print("2.: 0")
+print("3.: 12,5")
+print("4.: 0")
+print("5.: 0")
+print("6.: 0")
+print("7.: 0")
+print("8.: 7225")
+print("9.: 9")

@@ -5,7 +5,7 @@
 5.:
 6.:
 7.:
-8.: 7225
+8.:
 9.: 9
 
 
@@ -30,13 +30,6 @@
     jancsi odaér: 20-x/12+x/5
     x/10+20-x/4=20-x/12+x/5
     x=12,5km-t biciklizik juliska
-
-8.
-    átló hossza 85 kocka = gyök 2 * 85=120,2081
-    85 négyzet*gyök 2 négyzet = 7225*2 = 2a négyzet
-    7225 = a négyzet
-    85 = a
-    t = a * a = 7225 négyzetcm a nagy kocka területe
 
 9.
     goodbye = 198, 

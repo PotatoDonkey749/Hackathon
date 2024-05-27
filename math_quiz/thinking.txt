@@ -47,4 +47,4 @@
     198/(x-1) = 9 angol
     308/(x-1) = 14 magyar
 
-Megjegyzés: Minden feladat megoldását megtaláltam az interneten, de csak azokat a megoldásokat adom be, amiket magamtól meg tudtam oldani.
+Megjegyzés: Minden feladat megoldását megtaláltam az interneten, de csak azokat a megoldásokat vezettem le, amiket magamtól meg tudtam oldani.

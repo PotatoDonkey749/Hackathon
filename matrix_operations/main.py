@@ -71,7 +71,8 @@ def print_results(results):
         print(operation)
         for row in result:
             print(" ".join(map(str, row)))
-        print("\n")
+        print()
+
 
 def main():
     filename = "./input.txt"

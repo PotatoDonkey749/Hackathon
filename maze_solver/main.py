@@ -70,6 +70,6 @@ for label, path in results.items():
     print(f"{label}")
     if path != "No path found":
         
-        print(f"S {' '.join(path)} G")
+        print(f"S {' '.join(path)} G", end="\n\n")
     else:
-        print("No path found")
+        print("No path found",end="\n\n")

@@ -1,6 +1,6 @@
 print("1.: 75")
 print("2.: 512")
-print("3.: 12,5")
+print("3.: 12.5")
 print("4.: 65")
 print("5.: 2")
 print("6.: 5")
